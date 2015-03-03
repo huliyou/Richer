@@ -1,6 +1,6 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
-
+#include "SplashScene.h"
 USING_NS_CC;
 
 AppDelegate::AppDelegate() {
@@ -25,7 +25,7 @@ void AppDelegate::initGLContextAttrs()
 bool AppDelegate::applicationDidFinishLaunching() {
     // initialize director
     auto director = Director::getInstance();
-    auto glview = director->getOpenGLView();
+    auto glview   = director->getOpenGLView();
     if(!glview) {
         glview = GLViewImpl::createWithRect("MyGame", Rect(0, 0, 960, 640));
         director->setOpenGLView(glview);
@@ -42,7 +42,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     FileUtils::getInstance()->addSearchPath("res");
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    auto scene = SplashScene::createScene();
 
     // run
     director->runWithScene(scene);
