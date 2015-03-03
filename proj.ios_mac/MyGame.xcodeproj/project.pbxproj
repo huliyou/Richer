@@ -74,6 +74,7 @@
 		DC3E59A21AA5359900375CF2 /* press_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3E59931AA5359900375CF2 /* press_menu.png */; };
 		DC3E59A31AA5359900375CF2 /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3E59941AA5359900375CF2 /* rainbow.png */; };
 		DC3E59A81AA537A600375CF2 /* SplashScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC3E59A61AA537A600375CF2 /* SplashScene.cpp */; };
+		DC9D58111AA58BB900053EFD /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9D580F1AA58BB900053EFD /* MenuScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +148,8 @@
 		DC3E59A51AA5368300375CF2 /* ConstUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstUtil.h; sourceTree = "<group>"; };
 		DC3E59A61AA537A600375CF2 /* SplashScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashScene.cpp; sourceTree = "<group>"; };
 		DC3E59A71AA537A600375CF2 /* SplashScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScene.h; sourceTree = "<group>"; };
+		DC9D580F1AA58BB900053EFD /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuScene.cpp; sourceTree = "<group>"; };
+		DC9D58101AA58BB900053EFD /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		DF534F79B8B5EB0BCFA4A463 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d iOS.a"; path = "/Applications/Cocos/frameworks/cocos2d-x-3.4rc1/prebuilt/ios/libcocos2d iOS.a"; sourceTree = "<absolute>"; };
 		E34B46BD954417736CF0EEE6 /* libcocos2d Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d Mac.a"; path = "/Applications/Cocos/frameworks/cocos2d-x-3.4rc1/prebuilt/mac/libcocos2d Mac.a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -292,6 +295,8 @@
 				DC3E59A51AA5368300375CF2 /* ConstUtil.h */,
 				DC3E59A71AA537A600375CF2 /* SplashScene.h */,
 				DC3E59A61AA537A600375CF2 /* SplashScene.cpp */,
+				DC9D58101AA58BB900053EFD /* MenuScene.h */,
+				DC9D580F1AA58BB900053EFD /* MenuScene.cpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -505,6 +510,7 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				DC9D58111AA58BB900053EFD /* MenuScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

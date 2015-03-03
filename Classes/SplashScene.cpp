@@ -8,6 +8,7 @@
 
 #include "SplashScene.h"
 #include "ConstUtil.h"
+#include "MenuScene.h"
 USING_NS_CC;
 
 Scene* SplashScene::createScene()
@@ -139,7 +140,7 @@ void SplashScene::SpriteFadeOut()
 void SplashScene::goToMenuScene()
 {
     log("gotoMenuScene");
-    //Director::getInstance()->replaceScene(MenuScene::createScene());
+    Director::getInstance()->replaceScene(MenuScene::createScene());
 }
 
 
